@@ -48,7 +48,7 @@ services:
     depends_on:
       - admin
     ports:
-      - "8083:80"
+      - "8084:80"
 
   db:
     image: nanjiren01/aichat-db:latest
